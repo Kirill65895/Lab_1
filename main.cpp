@@ -5,8 +5,8 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "RU"); //Кодировка документа
 
-    double ygol_gorizonta = 14 * 3.1415926535897 / 180;
-    double nach_skorost = 750;
+    double angleHorizon = 14 * 3.1415926535897 / 180;
+    double startSpeed = 750;
     double g = 9.81;
     double r, h, l, R_1, R_2;
 
