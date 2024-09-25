@@ -11,10 +11,10 @@ int main() {
     double p;
     double R[10]{10, 20, 30, 40, 50, 100, 150, 200, 250, 300};
     
-    for (auto i : R)
+    while(a < 10)
     {
         p = R[a] * pow((E / (R[a] + r)), 2);
-        cout << "R = " << i << " " << "P = " << p << endl;
+        cout << "R = " << R[a] << " " << "P = " << p << endl;
         ++a;
     }
 }
